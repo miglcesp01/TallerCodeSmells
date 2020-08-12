@@ -3,11 +3,11 @@ package modelos;
 import java.util.ArrayList;
 import modelos.Persona.Persona;
 
-public class Profesor extends Persona{
-    public String codigo;
-    public Persona persona;
-    public InformacionAdicionalProfesor info;
-    public ArrayList<Paralelo> paralelos;
+public class Profesor{
+    private String codigo;
+    private Persona persona;
+    private InformacionAdicionalProfesor info;
+    private ArrayList<Paralelo> paralelos;
 
     public Profesor(String codigo, Persona persona) {
         this.codigo = codigo;

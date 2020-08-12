@@ -10,11 +10,11 @@ package modelos.Persona;
  * @author Lenovo
  */
 public class Persona {
-    public String nombre;
-    public String apellido;
-    public int edad;
-    public String direccion;
-    public String telefono;
+    private String nombre;
+    private String apellido;
+    private int edad;
+    private String direccion;
+    private String telefono;
 
     public Persona(String nombre, String apellido, int edad, String direccion, String telefono) {
         this.nombre = nombre;
