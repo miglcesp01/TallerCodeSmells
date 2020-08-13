@@ -9,6 +9,6 @@ package modelos;
  *
  * @author Yiam
  */
-public class Parcial {
-    
+public enum Parcial {
+    INICIAL,FINAL
 }
