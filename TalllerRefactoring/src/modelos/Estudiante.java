@@ -7,7 +7,6 @@ public class Estudiante{
     public String matricula;
     public String nombre;
     public String apellido;
-    public String facultad;
     public int edad;
     public String direccion;
     public String telefono;
