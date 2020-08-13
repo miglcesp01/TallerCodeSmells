@@ -5,6 +5,10 @@ public class InformacionAdicionalProfesor {
     private String facultad;
     private double BonoFijo;
 
+    public double calcularSueldo(){
+        return this.getAñosdeTrabajo()*600 +this.getBonoFijo()
+    }  
+
     public int getAñosdeTrabajo() {
         return añosdeTrabajo;
     }
@@ -28,8 +32,4 @@ public class InformacionAdicionalProfesor {
     public void setBonoFijo(double BonoFijo) {
         this.BonoFijo = BonoFijo;
     }
-    
-    
-    
-    
 }

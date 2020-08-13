@@ -18,10 +18,8 @@ public class Profesor{
     public void anadirParalelos(Paralelo p){
         paralelos.add(p);
     }
-    
-     public double calcularSueldo(){
-        double sueldo=0;
-        sueldo = info.getAñosdeTrabajo()*600 + info.getBonoFijo();
-        return sueldo;
-    }  
+
+    public void setinfo(InformacionAdicionalProfesor info) {
+        this.info = info;
+    }
 }
