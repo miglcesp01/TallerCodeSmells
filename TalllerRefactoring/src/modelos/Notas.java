@@ -40,7 +40,7 @@ public class Notas {
   public double getLecciones() {
     return nLecciones;
   }
-  public doible getExame() {
+  public doible getExamen() {
     return nExamen;
   }
 
