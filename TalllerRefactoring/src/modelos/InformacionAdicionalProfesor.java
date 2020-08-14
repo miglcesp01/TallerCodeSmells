@@ -5,8 +5,9 @@ public class InformacionAdicionalProfesor {
     private String facultad;
     private double BonoFijo;
 
+    
     public double calcularSueldo(){
-        return this.getAñosdeTrabajo()*600 +this.getBonoFijo()
+        return this.getAñosdeTrabajo()*600 +this.getBonoFijo();
     }  
 
     public int getAñosdeTrabajo() {
